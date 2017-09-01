@@ -1,0 +1,16 @@
+
+
+body {
+font-family:sans-serif,Arial;
+color:white;
+font-family:300;
+background-color:#53e3a6;
+}
+.container{
+	max-width:660px;
+	margin:0 auto;
+	padding: 80px 0;
+    height:400px;
+    text-align: center;
+    margin-top: 5%;
+}

@@ -1,0 +1,50 @@
+
+ echo "<div class=\"leftmenu\">";
+                echo "<a href=\"home.php\">Home</a>";
+                echo "</div>";
+                echo "<div class=\"leftmenu\">";
+                echo "<a href=\"viewprofile.php\">ViewProfile</a>";
+                echo "</div>";
+               echo "<div class=\"leftmenu\">";
+                echo "<a href=\"Create_employee.php\">Create Employee</a>";
+	        echo "</div>";
+                echo "<div id=\"update\" class=\"leftmenu\">";
+                echo "<a href=\"updateprofile.php\">Updateprofile</a>";
+                echo "</div>";
+                echo "<div class=\"leftmenu\">";
+                echo "<a href=\"leave_apply.php\">Leave Apply</a>";
+                echo "</div>";
+                echo "<div class=\"leftmenu\">";
+                echo "<a href=\"select_for_grant.php\">Show Apply</a>";
+                echo "</div>";
+                echo "<div class=\"leftmenu\">";
+                echo "<a href=\"view_all.php\">View All Employee</a>";
+                echo "</div>";
+                echo "<div class=\"leftmenu\">";
+                echo "<a href=\"logout.php\">Logout</a>";
+                echo "</div>";
+
+												
+		   <ul>
+            <li><a href="#">Aliquam libero</a></li>
+            <li><a href="#">Consectetuer adipiscing elit</a></li>
+            <li><a href="#">Metus aliquam pellentesque</a></li>
+            <li><a href="#">Suspendisse iaculis mauris</a></li>
+            <li><a href="#">Proin gravida orci porttitor</a></li>
+            <li><a href="#">Aliquam libero</a></li>
+            <li><a href="#">Consectetuer adipiscing elit</a></li>
+            <li><a href="#">Metus aliquam pellentesque</a></li>
+            <li><a href="#">Suspendisse iaculis mauris</a></li>
+            <li><a href="#">Proin gravida orci porttitor</a></li>
+          </ul>
+		  
+		  <div class="post">
+										<h2 class="title">Welcome to Employee Management System</h2>
+											<form action="login.php" method="post">
+											User Id : <input type="text" name="userId"/><br/>
+											Password: <input type="password" name="pass"/><br/>
+											<input type="submit" value="Login">
+											<h1>New?<a href="register.php"> Register Here</a></h1>
+											</form>
+										
+									</div>
